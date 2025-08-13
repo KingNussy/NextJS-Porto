@@ -16,8 +16,8 @@ export default function About(){
               <div className="flex flex-col text-start ml-2">
                 <h1 className="text-4xl font-bold mt-4">Hello, I am King Nussy</h1>
                 <p className="mt-2 text-lg text-gray-600">
-                I'm a student at SMK Taruna Bhakti, Depok, majoring in Software
-                Engineering. I'm a responsible and dependable individual who can
+                I&apos;m a student at SMK Taruna Bhakti, Depok, majoring in Software
+                Engineering. I&apos;m a responsible and dependable individual who can
                 collaborate effectively in a team.
                 </p>
               </div>
