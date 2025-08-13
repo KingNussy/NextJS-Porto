@@ -1,8 +1,10 @@
+import Image from "next/image";
+
 export default function Projects(){
     return (
         <section className="flex flex-wrap justify-center gap-6 p-8">
         <div className="w-80 overflow-hidden rounded-lg shadow-md transition-transform duration-300 hover:-translate-y-2 hover:shadow-xl cursor-pointer">
-            <img
+            <Image
             className="h-48 w-full object-cover"
             src="/kallery.png"
             alt="Kallery Project"
@@ -13,7 +15,7 @@ export default function Projects(){
         </div>
 
         <div className="w-80 overflow-hidden rounded-lg shadow-md transition-transform duration-300 hover:-translate-y-2 hover:shadow-xl cursor-pointer">
-            <img
+            <Image
             className="h-48 w-full object-cover"
             src="/sisfo.png"
             alt="SISFO SARPRAS Project"
