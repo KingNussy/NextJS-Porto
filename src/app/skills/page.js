@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+
 import React from 'react';
 import { SiLaravel, SiHtml5, SiCss3, SiJavascript, SiMysql} from 'react-icons/si';
 import { FaGolang } from "react-icons/fa6";

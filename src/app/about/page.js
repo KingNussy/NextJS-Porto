@@ -1,10 +1,12 @@
+/* eslint-disable react/no-unescaped-entities */
+
 import Image from "next/image";
 
 export default function About(){
     return (
         <section className="flex flex-col items-center justify-center min-h-screen pl-70 pr-70 text-center p-4">
-              <div className="flex flex-row justify-center items-center m-2">
-                <Image 
+            <div className="flex flex-row justify-center items-center m-2">
+            <Image 
                 src="/crop_king.png" 
                 alt="Foto Profil" 
                 width={150} 
@@ -19,7 +21,7 @@ export default function About(){
                 collaborate effectively in a team.
                 </p>
               </div>
-              </div>
-            </section>
+            </div>
+        </section>
     );
 }
